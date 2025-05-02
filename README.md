@@ -1,4 +1,4 @@
-# SCIENTIFIC PYTHON TUTORIAL
+# INTRODUCTION TO LATEX TUTORIAL
 
 The tutorial will take place over 3 half-days in room  "36 CHR" at building [8C](https://maps.app.goo.gl/7Wygrch4jbpJtZ2W6) on the Bourget du Lac Campus on May the 6th from 09:00 am to 2:00 pm.
 
@@ -14,17 +14,22 @@ Translated with DeepL.com (free version)
 
 > [!IMPORTANT]
 **Before the tutorial* 
->    - xxx
->       - Install the following software:
+>    - Install the following software:
+>       - If you are a Windows, install the following software in this order:
+>           1. Install the [MikTeX](https://miktex.org/download) distribution.
+>           - Install the [TexMaker](https://www.xm1math.net/texmaker/)
+>           - Install [Strawberry Perl](https://strawberryperl.com/)
+>       - If you are a Mac user, install the following software in this order:
+>           1. Install the [MacTeX](https://www.tug.org/mactex/) distribution.
+>       - If you are a Linux user, install the following software in this order:
+>           1. Install the [TexLive](https://www.tug.org/texlive/) distribution.
+>           2. Install the [TexMaker](https://www.xm1math.net/texmaker/) 
+>       - For all users, 
+>           - Install a Python distribution following our tutorial [here](https://symmehub.github.io/positron/setup/setup.html#).
+>           - Create a GTHUB account.
+
 >          - Python 3.8 or higher
 >    - Create a GIThub account.
-
-The module is scheduled over 3 half-days (3x4h):
-
-* **Day 1**: Working with Python: working environments (Visual Studio Code, Jupyter). Basic programming in Python. Scientific and graphical libraries: Numpy, Scipy, Pandas, Matplotlib, Numba. Various examples.
-* **Day 2**:  Creation of a collaborative and documented library: Creation of a documented library with Sphinx in collaborative mode with Git and GitLab/GitHub. Work organization, unit tests, publication of the documentation. Work on specific scientific topics like advanced graphics for publications with Matplotlib (complex graphics, Latex couplings), image processing, optimization, solving differential equations, machine/deep learning (Scikit Learn, PyTorch), code optimization with Numpy/Numba/JAX...
-* **Day 3**: Personal project: each participant proposes to solve a problem with the proposed methods. At the end of this session, the project is realized and returned to the form of a library or a GIT repository.
-
 
 ## PEDAGOGICAL APPROACH
 
