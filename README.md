@@ -26,7 +26,7 @@ Translated with DeepL.com (free version)
 >           2. Install the [TexMaker](https://www.xm1math.net/texmaker/) 
 >       - For all users, 
 >           - Install a Python distribution following our tutorial [here](https://symmehub.github.io/positron/setup/setup.html#).
->           - Create a GTHUB account.
+>           - Create a [GITHUB](https://https://github.com/) account.  
 
 
 ## PEDAGOGICAL APPROACH
