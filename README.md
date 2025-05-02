@@ -1,4 +1,4 @@
-# INTRODUCTION TO LATEX TUTORIAL
+# INTRODUCTION TO \LaTeX TUTORIAL
 
 The tutorial will take place over 3 half-days in room  "36 CHR" at building [8C](https://maps.app.goo.gl/7Wygrch4jbpJtZ2W6) on the Bourget du Lac Campus on May the 6th from 09:00 am to 2:00 pm.
 
@@ -28,8 +28,6 @@ Translated with DeepL.com (free version)
 >           - Install a Python distribution following our tutorial [here](https://symmehub.github.io/positron/setup/setup.html#).
 >           - Create a GTHUB account.
 
->          - Python 3.8 or higher
->    - Create a GIThub account.
 
 ## PEDAGOGICAL APPROACH
 
