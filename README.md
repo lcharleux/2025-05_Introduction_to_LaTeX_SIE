@@ -5,7 +5,7 @@ The tutorial will take place over 3 half-days in room  "36 CHR" at building [8C]
 
 ## OUTLINE
 
-LaTeX is an open-source (and therefore free) tool for producing high-quality written documents. It has a wide range of applications in the humanities, economics, social sciences, exact sciences and engineering. It enables easy, clean management of mathematical formulas, figures and bibliographies. The module provides participants with the knowledge and practice of this tool, which enables them to concentrate on the organization and meaning of what they want to convey, with the computer and LaTeX's typographic expertise taking care of the rest. LaTeX also works naturally with GIT, making it easy to track the progress of your document and collaborate with others.
+$\LaTeX$ is an open-source (and therefore free) tool for producing high-quality written documents. It has a wide range of applications in the humanities, economics, social sciences, exact sciences and engineering. It enables easy, clean management of mathematical formulas, figures and bibliographies. The module provides participants with the knowledge and practice of this tool, which enables them to concentrate on the organization and meaning of what they want to convey, with the computer and $\LaTeX$'s typographic expertise taking care of the rest. $\LaTeX$ also works naturally with GIT, making it easy to track the progress of your document and collaborate with others.
 
 Translated with DeepL.com (free version)
 
