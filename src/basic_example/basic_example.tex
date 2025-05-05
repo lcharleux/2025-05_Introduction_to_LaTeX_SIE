@@ -11,6 +11,16 @@
 \usepackage[math]{blindtext} % generates text for document filling purposes
 % \usepackage{lipsum}
 \usepackage[left=4cm,right=4cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{siunitx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%... then configure it.
+\fancyhead{} % clear all header fields
+\fancyhead[RO,LE]{\textbf{The performance of new graduates}}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{From: K. Grant}
+\fancyfoot[CO,RE]{To: Dean A. Smith}
 % DOCUMENT SETUP
 \author{Ludovic Charleux}
 \title{My first ever LaTeX document}
@@ -65,5 +75,33 @@ On veut montrer des choses:
     A & = \left( a + b\right)^2 \nonumber \\
       & = a^2 + 2 ab + b^2
 \end{align}
+
+On vous donne les valeurs suivantes:
+\begin{itemize}
+\item La masse $m = \qty{5.01d23}{\kilo\gram}$.
+\item La vitesse 
+$$
+v = \qty[per-mode=fraction]{5}{\meter\per\second}$$
+\item La pression:
+$$
+P = \qty{5}{\newton\per\meter\squared}
+$$
+\end{itemize}
+
+\section{Enumerations}
+
+On peut énumérer:
+
+\begin{enumerate}
+\item Point 1
+\item Point 2
+\end{enumerate}
+
+\section{Mise en page}
+
+On peut utiliser FancyHDR pour modifier la mise en page du documen. 
+Pour aller plus loin, voir \href{https://fr.overleaf.com/learn/latex/Headers_and_footers#Using_the_fancyhdr_package}{Overleaf}.
+
+
 
 \end{document}
