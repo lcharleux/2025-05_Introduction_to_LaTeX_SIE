@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{booktabs}
 % \usepackage{booktabs}
 \usepackage[math]{blindtext} % generates text for document filling purposes
 % \usepackage{lipsum}
@@ -123,5 +124,34 @@ On aurait pu penser que la figure serait là.
 \blindtext[2]
 
 \section{Tables et tableaux}
+
+\begin{tabular}{ccc}
+    a & b & c \\
+    e & e & f
+\end{tabular}
+
+\begin{table}[]
+    \caption{A nice table.}
+    \label{tab:nice_table}
+    \begin{center}
+        \begin{tabular}{@{}lcr@{}}
+            \toprule
+            Name & Age & Address \\
+            \midrule
+            Bob & Bill  & 1 first street \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    
+\end{table}
+
+
+\section{Citations de refs biblio}
+
+On peut citer des reférences une par une \cite{hawking1974black}. 
+On peut citer plusieurs articles à la fois \cite{belczynski2012missing,hawking1974black}
+
+\bibliography{biblio}
+\bibliographystyle{plain}
 
 \end{document}
