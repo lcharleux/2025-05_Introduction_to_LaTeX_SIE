@@ -14,6 +14,9 @@
 \usepackage[left=4cm,right=4cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{siunitx}
 \usepackage{fancyhdr}
+\usepackage{natbib}
+
+
 \pagestyle{fancy}
 %... then configure it.
 \fancyhead{} % clear all header fields
@@ -148,10 +151,12 @@ On aurait pu penser que la figure serait là.
 
 \section{Citations de refs biblio}
 
-On peut citer des reférences une par une \cite{hawking1974black}. 
-On peut citer plusieurs articles à la fois \cite{belczynski2012missing,hawking1974black}
+On peut citer des reférences une par une \citep{hawking1974black}. 
+On peut citer plusieurs articles à la fois \citep{belczynski2012missing,hawking1974black}.
+Comme le dit très bien \citeauthor{belczynski2012missing}, on peut y arriver.
 
 \bibliography{biblio}
-\bibliographystyle{plain}
+%\bibliographystyle{plain}
+\bibliographystyle{abbrvnat}
 
 \end{document}
