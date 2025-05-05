@@ -5,3 +5,12 @@
 *.csv
 *.pdf
 *.xlsx
+*.fdb_latexmk
+*.gz
+*.fls
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
