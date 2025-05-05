@@ -78,14 +78,14 @@ On veut montrer des choses:
 
 On vous donne les valeurs suivantes:
 \begin{itemize}
-\item La masse $m = \qty{5.01d23}{\kilo\gram}$.
-\item La vitesse 
-$$
-v = \qty[per-mode=fraction]{5}{\meter\per\second}$$
-\item La pression:
-$$
-P = \qty{5}{\newton\per\meter\squared}
-$$
+    \item La masse $m = \qty{5.01d23}{\kilo\gram}$.
+    \item La vitesse
+          $$
+              v = \qty[per-mode=fraction]{5}{\meter\per\second}$$
+    \item La pression:
+          $$
+              P = \qty{5}{\newton\per\meter\squared}
+          $$
 \end{itemize}
 
 \section{Enumerations}
@@ -93,15 +93,35 @@ $$
 On peut énumérer:
 
 \begin{enumerate}
-\item Point 1
-\item Point 2
+    \item Point 1
+    \item Point 2
 \end{enumerate}
 
 \section{Mise en page}
 
-On peut utiliser FancyHDR pour modifier la mise en page du documen. 
-Pour aller plus loin, voir \href{https://fr.overleaf.com/learn/latex/Headers_and_footers#Using_the_fancyhdr_package}{Overleaf}.
+On peut utiliser FancyHDR pour modifier la mise en page du documen.
+Pour aller plus loin, voir \href{https://fr.overleaf.com/learn/latex/Headers_and_footers#Using_the_fancyhdr_package}{lien}.
+On peut aussi utiliser le package parindent pour modifier la forme des paragraphes \href{https://www.overleaf.com/learn/latex/Articles/How_to_change_paragraph_spacing_in_LaTeX#The_parskip_package}{(lien)}.
+%paragraphes \href{https://www.overleaf.com/learn/latex/Articles/How_to_change_paragraph_spacing_in_LaTeX#The_parskip_package}{Overleaf}.
 
+\section{Figures en \LaTeX}
 
+On peut intégrer des images facilement avec \includegraphics[width=12mm]{figures/toad.jpg}.
+
+% EXEMPLE DE FIGURE
+\blindtext[2]
+
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[width=1.\textwidth]{figures/toad.jpg}
+    \end{center}
+    \caption{Un superbe crapaud.}
+    \label{fig:toad}
+\end{figure}
+
+On aurait pu penser que la figure serait là.
+\blindtext[2]
+
+\section{Tables et tableaux}
 
 \end{document}
